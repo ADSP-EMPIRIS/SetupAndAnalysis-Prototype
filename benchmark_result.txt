@@ -1,0 +1,59 @@
+Host: http://localhost:8086
+Concurrency: 8
+Virtual Hosts: 0
+Measurements: 1
+Tag cardinalities: [2 5000 1]
+Points per series: 1000
+Total series: 10000
+Total points: 10000000
+Total fields per point: 1
+Randomized field values: false
+Multiple writes per point: false
+Batch Size: 10000
+Database: stress (Shard duration: 7d)
+Write Consistency: any
+Writing into InfluxDB 2.0: false
+InfluxDB 2.0 Authorization Token: 
+Content-Type:[application/x-www-form-urlencoded]
+Start time: 2023-11-12 17:07:57.272340976 +0000 UTC
+Time span: off
+T=00000001 250000 points written (2%). Total throughput: 249943.6 pt/sec | 249943.6 val/sec. Current throughput: 250000 val/sec. Errors: 0
+T=00000002 540000 points written (5%). Total throughput: 269966.1 pt/sec | 269966.1 val/sec. Current throughput: 290000 val/sec. Errors: 0
+T=00000003 840000 points written (8%). Total throughput: 279977.2 pt/sec | 279977.2 val/sec. Current throughput: 300000 val/sec. Errors: 0
+T=00000004 1150000 points written (11%). Total throughput: 287454.9 pt/sec | 287454.9 val/sec. Current throughput: 310000 val/sec. Errors: 0 | μ: 257.168947ms, 90%: 366.936588ms, 95%: 376.248063ms, 99%: 423.960031ms
+T=00000005 1430000 points written (14%). Total throughput: 285981.5 pt/sec | 285981.5 val/sec. Current throughput: 280000 val/sec. Errors: 0 | μ: 267.777865ms, 90%: 376.248063ms, 95%: 436.505871ms, 99%: 561.049455ms
+T=00000006 1740000 points written (17%). Total throughput: 289970.6 pt/sec | 289970.6 val/sec. Current throughput: 310000 val/sec. Errors: 0 | μ: 266.252355ms, 90%: 372.324786ms, 95%: 423.960031ms, 99%: 561.049455ms
+T=00000007 1940000 points written (19%). Total throughput: 277104.3 pt/sec | 277104.3 val/sec. Current throughput: 200000 val/sec. Errors: 0 | μ: 277.057452ms, 90%: 400.53535ms, 95%: 446.789189ms, 99%: 561.768369ms
+T=00000008 2290000 points written (22%). Total throughput: 286239.5 pt/sec | 286239.5 val/sec. Current throughput: 350000 val/sec. Errors: 0 | μ: 272.173634ms, 90%: 393.610125ms, 95%: 442.681277ms, 99%: 561.049455ms
+T=00000009 2620000 points written (26%). Total throughput: 291109.9 pt/sec | 291109.9 val/sec. Current throughput: 330000 val/sec. Errors: 0 | μ: 270.954157ms, 90%: 391.163791ms, 95%: 436.505871ms, 99%: 561.049455ms
+T=00000010 2870000 points written (28%). Total throughput: 286991.3 pt/sec | 286991.3 val/sec. Current throughput: 250000 val/sec. Errors: 0 | μ: 271.122795ms, 90%: 391.163791ms, 95%: 436.505871ms, 99%: 561.049455ms
+T=00000011 3190000 points written (31%). Total throughput: 289972.4 pt/sec | 289972.4 val/sec. Current throughput: 320000 val/sec. Errors: 0 | μ: 272.795882ms, 90%: 391.163791ms, 95%: 436.505871ms, 99%: 545.031986ms
+T=00000012 3480000 points written (34%). Total throughput: 289976.6 pt/sec | 289976.6 val/sec. Current throughput: 290000 val/sec. Errors: 0 | μ: 270.971566ms, 90%: 393.600907ms, 95%: 436.298564ms, 99%: 545.031986ms
+T=00000013 3680000 points written (36%). Total throughput: 283070.7 pt/sec | 283070.7 val/sec. Current throughput: 200000 val/sec. Errors: 0 | μ: 275.815134ms, 90%: 396.687001ms, 95%: 443.094598ms, 99%: 561.768369ms
+T=00000014 4010000 points written (40%). Total throughput: 286421.3 pt/sec | 286421.3 val/sec. Current throughput: 330000 val/sec. Errors: 0 | μ: 276.481909ms, 90%: 400.283425ms, 95%: 446.789189ms, 99%: 561.768369ms
+T=00000015 4280000 points written (42%). Total throughput: 285321.1 pt/sec | 285321.1 val/sec. Current throughput: 270000 val/sec. Errors: 0 | μ: 276.740937ms, 90%: 401.880885ms, 95%: 446.465465ms, 99%: 561.768369ms
+T=00000016 4600000 points written (46%). Total throughput: 287495.6 pt/sec | 287495.6 val/sec. Current throughput: 320000 val/sec. Errors: 0 | μ: 275.838707ms, 90%: 400.53535ms, 95%: 446.465465ms, 99%: 561.768369ms
+T=00000017 4870000 points written (48%). Total throughput: 286465.1 pt/sec | 286465.1 val/sec. Current throughput: 270000 val/sec. Errors: 0 | μ: 275.431207ms, 90%: 400.53535ms, 95%: 446.465465ms, 99%: 561.768369ms
+T=00000018 5160000 points written (51%). Total throughput: 286650.4 pt/sec | 286650.4 val/sec. Current throughput: 290000 val/sec. Errors: 0 | μ: 274.499792ms, 90%: 396.687001ms, 95%: 444.816149ms, 99%: 561.049455ms
+T=00000019 5380000 points written (53%). Total throughput: 283144.7 pt/sec | 283144.7 val/sec. Current throughput: 220000 val/sec. Errors: 0 | μ: 276.257615ms, 90%: 396.687001ms, 95%: 444.816149ms, 99%: 561.049455ms
+T=00000020 5710000 points written (57%). Total throughput: 285490.1 pt/sec | 285490.1 val/sec. Current throughput: 330000 val/sec. Errors: 0 | μ: 276.788847ms, 90%: 401.880885ms, 95%: 443.49765ms, 99%: 561.049455ms
+T=00000021 5960000 points written (59%). Total throughput: 283772.3 pt/sec | 283772.3 val/sec. Current throughput: 250000 val/sec. Errors: 0 | μ: 278.255107ms, 90%: 403.365155ms, 95%: 443.49765ms, 99%: 561.049455ms
+T=00000022 6200000 points written (62%). Total throughput: 281814.8 pt/sec | 281814.8 val/sec. Current throughput: 240000 val/sec. Errors: 0 | μ: 279.909023ms, 90%: 404.903384ms, 95%: 443.094598ms, 99%: 545.031986ms
+T=00000023 6460000 points written (64%). Total throughput: 280860.2 pt/sec | 280860.2 val/sec. Current throughput: 260000 val/sec. Errors: 0 | μ: 281.07763ms, 90%: 408.024968ms, 95%: 446.465465ms, 99%: 545.031986ms
+T=00000024 6710000 points written (67%). Total throughput: 279581.4 pt/sec | 279581.4 val/sec. Current throughput: 250000 val/sec. Errors: 0 | μ: 282.213428ms, 90%: 407.678552ms, 95%: 444.816149ms, 99%: 545.031986ms
+T=00000025 6900000 points written (69%). Total throughput: 275988.8 pt/sec | 275988.8 val/sec. Current throughput: 190000 val/sec. Errors: 0 | μ: 286.92189ms, 90%: 420.695353ms, 95%: 464.853074ms, 99%: 608.065433ms
+T=00000026 7100000 points written (71%). Total throughput: 273067.8 pt/sec | 273067.8 val/sec. Current throughput: 200000 val/sec. Errors: 0 | μ: 290.216698ms, 90%: 426.610096ms, 95%: 472.041714ms, 99%: 588.611748ms
+T=00000027 7320000 points written (73%). Total throughput: 271043.6 pt/sec | 271043.6 val/sec. Current throughput: 220000 val/sec. Errors: 0 | μ: 292.135417ms, 90%: 436.298564ms, 95%: 486.057162ms, 99%: 588.611748ms
+T=00000028 7630000 points written (76%). Total throughput: 272490.9 pt/sec | 272490.9 val/sec. Current throughput: 310000 val/sec. Errors: 0 | μ: 291.908708ms, 90%: 436.298564ms, 95%: 482.77465ms, 99%: 588.611748ms
+T=00000029 7880000 points written (78%). Total throughput: 271721.5 pt/sec | 271721.5 val/sec. Current throughput: 250000 val/sec. Errors: 0 | μ: 292.647489ms, 90%: 432.999181ms, 95%: 482.246044ms, 99%: 588.611748ms
+T=00000030 8110000 points written (81%). Total throughput: 270325.5 pt/sec | 270325.5 val/sec. Current throughput: 230000 val/sec. Errors: 0 | μ: 292.930887ms, 90%: 432.999181ms, 95%: 482.246044ms, 99%: 565.861345ms
+T=00000031 8360000 points written (83%). Total throughput: 269676.7 pt/sec | 269676.7 val/sec. Current throughput: 250000 val/sec. Errors: 0 | μ: 293.911179ms, 90%: 431.99692ms, 95%: 481.171708ms, 99%: 565.861345ms
+T=00000032 8640000 points written (86%). Total throughput: 269971.4 pt/sec | 269971.4 val/sec. Current throughput: 280000 val/sec. Errors: 0 | μ: 293.983345ms, 90%: 427.659731ms, 95%: 474.531256ms, 99%: 565.861345ms
+T=00000033 8750000 points written (87%). Total throughput: 265145.5 pt/sec | 265145.5 val/sec. Current throughput: 110000 val/sec. Errors: 0 | μ: 297.563065ms, 90%: 436.63325ms, 95%: 486.729425ms, 99%: 623.040104ms
+T=00000034 9080000 points written (90%). Total throughput: 267056.0 pt/sec | 267056.0 val/sec. Current throughput: 330000 val/sec. Errors: 0 | μ: 297.987418ms, 90%: 437.844986ms, 95%: 491.777226ms, 99%: 622.943097ms
+T=00000035 9330000 points written (93%). Total throughput: 266550.1 pt/sec | 266550.1 val/sec. Current throughput: 250000 val/sec. Errors: 0 | μ: 297.826691ms, 90%: 437.70782ms, 95%: 490.273708ms, 99%: 622.943097ms
+T=00000036 9570000 points written (95%). Total throughput: 265829.3 pt/sec | 265829.3 val/sec. Current throughput: 240000 val/sec. Errors: 0 | μ: 298.493598ms, 90%: 438.276523ms, 95%: 490.273708ms, 99%: 622.943097ms
+T=00000037 9840000 points written (98%). Total throughput: 265942.8 pt/sec | 265942.8 val/sec. Current throughput: 270000 val/sec. Errors: 0 | μ: 298.485187ms, 90%: 438.276523ms, 95%: 490.273708ms, 99%: 622.943097ms
+T=00000037 10000000 points written (100%). Total throughput: 266773.0 pt/sec | 266773.0 val/sec. Current throughput: 160000 val/sec. Errors: 0 | μ: 298.721314ms, 90%: 440.92505ms, 95%: 491.850897ms, 99%: 622.943097ms
+
+Total time: 37.5 seconds
