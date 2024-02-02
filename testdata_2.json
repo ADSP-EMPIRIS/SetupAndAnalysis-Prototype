@@ -1,0 +1,30 @@
+[
+    {
+        "data": [
+            {
+                "Latency": 154
+            },
+            {
+                "Latency": 334
+            }
+        ],
+        "timestamps": [
+            0,
+            1
+        ]
+    },
+    {
+        "data": [
+            {
+                "Latency": 154
+            },
+            {
+                "Latency": 334
+            }
+        ],
+        "timestamps": [
+            0,
+            1
+        ]
+    }
+]

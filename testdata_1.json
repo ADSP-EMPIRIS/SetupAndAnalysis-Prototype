@@ -1,0 +1,38 @@
+[
+    {
+        "data": [
+            {
+                "read": 1,
+                "delete": 5,
+                "update": 4
+            },
+            {
+                "read": 3,
+                "delete": 4,
+                "update": 2
+            }
+        ],
+        "timestamps": [
+            0,
+            1
+        ]
+    },
+    {
+        "data": [
+            {
+                "read": 1,
+                "delete": 5,
+                "update": 4
+            },
+            {
+                "read": 3,
+                "delete": 4,
+                "update": 2
+            }
+        ],
+        "timestamps": [
+            0,
+            1
+        ]
+    }
+]
